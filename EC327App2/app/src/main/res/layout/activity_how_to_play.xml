@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.ernie.ec327app.HowToPlay"
+    android:background="@drawable/background_image">
+
+    <Button
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        android:text="Back"
+        android:id="@+id/button"
+        android:onClick="onClick"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView3"
+        android:src="@drawable/person"
+        android:layout_marginTop="46dp"
+        android:layout_below="@+id/button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView4"
+        android:src="@drawable/potato"
+        android:layout_below="@+id/imageView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="45dp"
+        android:layout_alignRight="@+id/button"
+        android:layout_alignEnd="@+id/button" />
+
+    <TextView
+        android:layout_width="275dp"
+        android:layout_height="175dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="This is you. Move your phone to the left and to the right to avoid falling potatoes. If one hits you, its game over!"
+        android:id="@+id/textView2"
+        android:layout_alignTop="@+id/imageView3"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="175dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="These are what the potatoes look like. Avoid them at all costs!"
+        android:id="@+id/textView3"
+        android:layout_alignBottom="@+id/imageView4"
+        android:layout_toRightOf="@+id/imageView4"
+        android:layout_toEndOf="@+id/imageView4" />
+</RelativeLayout>
