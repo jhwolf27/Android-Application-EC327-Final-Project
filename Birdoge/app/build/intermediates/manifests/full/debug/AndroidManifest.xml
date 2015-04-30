@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.Birdoge.Birdoge"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="16" />
+
+    <android:uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <android:uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+
+    <application
+        android:debuggable="true"
+        android:icon="@drawable/ball"
+        android:label="@string/app_name" >
+        <activity
+            android:name="com.Birdoge.Birdoge.BirdogeGame"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.Birdoge.Birdoge.Birdoge"
+            android:clearTaskOnLaunch="true"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.Birdoge.Birdoge.HowToPlayPage1"
+            android:label="@string/title_activity_how_to_play"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.Birdoge.Birdoge.HowToPlayPage2"
+            android:label="@string/title_activity_how_to_play2"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>

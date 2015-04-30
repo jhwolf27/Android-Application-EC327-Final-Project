@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Birdoge</string>
+    <string name="win">You win!</string>
+    <string name="lose">You lose!</string>
+    <string name="life">Life</string>
+    <string name="results_format">$s</string>
+    <string name="reset_game">Reset Game</string>
+    <string name="title_activity_main">Birdoge</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_how_to_play">How To Play (Page 1)</string>
+    <string name="title_activity_how_to_play2">How To Play (Page 2)</string>
+
+</resources>

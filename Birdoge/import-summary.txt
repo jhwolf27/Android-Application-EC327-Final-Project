@@ -1,0 +1,109 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Risky Project Location:
+-----------------------
+The tools *should* handle project locations in any directory. However,
+due to bugs, placing projects in directories containing spaces in the
+path, or characters like ", ' and &, have had issues. We're working to
+eliminate these bugs, but to save yourself headaches you may want to
+move your project to a location where this is not a problem.
+C:\Users\jax\Desktop\College Stuff\Boston University\Spring 2015\EK327 Software Eng\Projects\Avoider-Android-Project-Android-Studio-Project1
+                            -            -                 -          -        -                                                            
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .gitignore
+* .idea\
+* .idea\.name
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\encodings.xml
+* .idea\libraries\
+* .idea\libraries\android_support_v4.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\scopes\
+* .idea\scopes\scope_settings.xml
+* .idea\vcs.xml
+* .idea\workspace.xml
+* Avoider-Android-Project.iml
+* PowerPoint\
+* PowerPoint\Avoider.pptx
+* Screenshots\
+* Screenshots\app_in_list.png
+* Screenshots\exit.png
+* Screenshots\few_hearts_screenshot.png
+* Screenshots\lots_hearts_screenshot.png
+* Screenshots\you_lose.png
+* Screenshots\you_win.png
+* gpl-3.0.txt
+* out\
+* out\production\
+* out\production\Avoider-Android-Project\
+* out\production\Avoider-Android-Project\Avoider-Android-Project.apk
+* out\production\Avoider-Android-Project\Avoider-Android-Project.unaligned.apk
+* out\production\Avoider-Android-Project\com\
+* out\production\Avoider-Android-Project\com\kellymccaslin\
+* out\production\Avoider-Android-Project\com\kellymccaslin\avoider\
+* out\production\Avoider-Android-Project\com\kellymccaslin\avoider\Avoider$1.class
+* out\production\Avoider-Android-Project\com\kellymccaslin\avoider\Avoider$2$1.class
+* out\production\Avoider-Android-Project\com\kellymccaslin\avoider\Avoider$2.class
+* out\production\Avoider-Android-Project\com\kellymccaslin\avoider\Avoider.class
+* out\production\Avoider-Android-Project\com\kellymccaslin\avoider\AvoiderThread.class
+* out\production\Avoider-Android-Project\com\kellymccaslin\avoider\AvoiderView$1.class
+* out\production\Avoider-Android-Project\com\kellymccaslin\avoider\AvoiderView$2.class
+* out\production\Avoider-Android-Project\com\kellymccaslin\avoider\AvoiderView$3.class
+* out\production\Avoider-Android-Project\com\kellymccaslin\avoider\AvoiderView$4.class
+* out\production\Avoider-Android-Project\com\kellymccaslin\avoider\AvoiderView.class
+* out\production\Avoider-Android-Project\com\kellymccaslin\avoider\BuildConfig.class
+* out\production\Avoider-Android-Project\com\kellymccaslin\avoider\R$attr.class
+* out\production\Avoider-Android-Project\com\kellymccaslin\avoider\R$drawable.class
+* out\production\Avoider-Android-Project\com\kellymccaslin\avoider\R$id.class
+* out\production\Avoider-Android-Project\com\kellymccaslin\avoider\R$layout.class
+* out\production\Avoider-Android-Project\com\kellymccaslin\avoider\R$raw.class
+* out\production\Avoider-Android-Project\com\kellymccaslin\avoider\R$string.class
+* out\production\Avoider-Android-Project\com\kellymccaslin\avoider\R.class
+* readme.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.0.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* lint.xml => app\lint.xml
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
