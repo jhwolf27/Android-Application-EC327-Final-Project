@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.Birdoge.Birdoge.HowToPlayPage2"
+    android:background="@drawable/ice">
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Previous"
+        android:id="@+id/button"
+        android:onClick="onClick"
+        android:layout_alignParentTop="true"
+        />
+
+    <Button
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        android:text="Main"
+        android:id="@+id/button2"
+        android:onClick="onClick2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="31dp"
+        android:src="@drawable/target"
+        android:layout_below="@+id/button"
+        android:layout_alignRight="@+id/button" />
+
+    <TextView
+        android:layout_width="225dp"
+        android:layout_height="150dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Collect two eggs and you gain a heart. Getting 10 hearts wins the game and sends you to the next level!"
+        android:id="@+id/textView"
+        android:textColor="#f95153ff"
+        android:layout_alignBottom="@+id/imageView2"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="If you lose all your hearts then its game over. Each time you play the level of difficulty increases, whether you win or lose!"
+        android:id="@+id/textView4"
+        android:layout_marginTop="45dp"
+        android:textColor="#f95153ff"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentRight="true" />
+</RelativeLayout>
