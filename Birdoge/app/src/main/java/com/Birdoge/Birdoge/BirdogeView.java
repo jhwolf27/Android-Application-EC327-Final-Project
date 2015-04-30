@@ -71,6 +71,8 @@ public class BirdogeView extends SurfaceView implements SurfaceHolder.Callback
     private static Map<Integer,Integer> soundMap;
 
 
+    //comment
+    private static final int TESTETST = 0;
     // Game variables
     public static android.graphics.PointF ball = new android.graphics.PointF();
     private static ArrayList<Point> lives = new ArrayList<Point>();
